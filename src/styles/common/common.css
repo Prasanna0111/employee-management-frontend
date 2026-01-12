@@ -1,0 +1,68 @@
+.logo {
+  font-size: xx-large;
+  text-align: center;
+  width: 150px;
+  background-color: var(--background);
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.logo div {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 1.5rem 0;
+  border-radius: 12px;
+  min-width: 300px;
+  width: 50%;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body {
+  padding: 1rem;
+  overflow: auto;
+  flex: 1;
+}
+
+.cls-btn {
+  border-radius: 9999px;
+  background: transparent;
+  border: 1px solid var(--background);
+  color: var(--text-secondary);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.modal-header {
+  border-bottom: 1px solid var(--background);
+  display: flex;
+  padding: 0 10px 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-footer {
+  border-top: 1px solid var(--background);
+  text-align: end;
+  padding: 10px 50px;
+}

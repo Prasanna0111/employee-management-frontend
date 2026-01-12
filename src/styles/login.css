@@ -1,0 +1,31 @@
+.login-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.login-section {
+  background-color: var(--card);
+  padding: 2rem 2rem;
+  border-radius: 10px;
+  border: 0.5px solid var(--background);
+  width: 25%;
+  height: 50%;
+}
+
+.login-section label {
+  font-weight: bold;
+  color: var(--text-secondary);
+}
+
+.login-footer {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  padding: 30px;
+  position: fixed;
+  bottom: 0;
+}

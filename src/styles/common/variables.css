@@ -1,0 +1,13 @@
+:root {
+  min-height: 100vh;
+  font-size: 16px;
+  --primary: #2563eb;
+  --secondary: #1e40af;
+  --background: #ebeced;
+  --card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --text-success: #16a34a;
+  --text-error: #dc2626;
+  --border: #cbd5e1;
+}

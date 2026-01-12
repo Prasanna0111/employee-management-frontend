@@ -1,0 +1,174 @@
+.action-menu {
+  position: relative;
+}
+
+.menu-content {
+  position: absolute;
+  display: none;
+  border: 1px solid gray;
+  min-width: 100px;
+  z-index: 100;
+}
+
+.menu-content div {
+  cursor: pointer;
+  padding: 2px;
+  background-color: rgb(245, 238, 238);
+}
+
+.action-menu:hover .menu-content {
+  display: block;
+}
+
+.db-text {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.count-card {
+  background-color: var(--card);
+  padding: 1rem;
+  border: 1px solid var(--background);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.table-container {
+  background-color: var(--card);
+  margin: 1rem;
+  padding: 1rem 0;
+  border-radius: 12px;
+  border: 1px solid var(--background);
+  flex: 1;
+  overflow: auto;
+}
+
+.db-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.db-table th,
+.db-table td {
+  padding: 5px;
+  border-bottom: 1px solid var(--background);
+}
+
+.db-table tbody tr:hover {
+  background-color: var(--background);
+}
+
+.active {
+  background-color: white;
+  color: var(--text-success);
+}
+
+.inactive {
+  background-color: white;
+  border: none;
+  color: var(--text-secondary);
+  cursor: none;
+}
+
+.edit-button {
+  background-color: var(--text-success);
+  color: white;
+}
+
+.delete-button {
+  background-color: var(--text-error);
+  color: white;
+}
+
+.submit-btn {
+  background-color: var(--text-success);
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.disabled-btn {
+  background-color: var(--text-secondary);
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: default;
+}
+
+.cancel-btn {
+  background-color: white;
+  color: var(--text-secondary);
+  border: 1px solid var(--text-secondary);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.form {
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+  border-radius: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.label,
+label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+}
+
+input,
+select {
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.radio-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+.image-preview {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+.page-btns {
+  text-align: end;
+  margin: 0 40px 20px 0;
+}
+
+.page-btns button {
+  font-size: larger;
+}

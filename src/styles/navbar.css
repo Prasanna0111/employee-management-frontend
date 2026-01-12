@@ -1,0 +1,13 @@
+.navbar {
+  border-bottom: 1px solid var(--border);
+  padding: 5px;
+}
+
+.logout-btn {
+  background-color: white;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: medium;
+}
